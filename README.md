@@ -11,6 +11,7 @@ devtools::install_github("https://github.com/yudonglin506311858/PAMwheelR.git")
 
 ```
 
+## 示例使用
 
 ```r
 library(PAMwheelR)
@@ -41,7 +42,7 @@ generate_pam_matrix <- function(codon_length = 3, seed = NULL) {
   )
 }
 
-# 示例使用
+
 pam_matrix <- generate_pam_matrix(codon_length = 2, seed = 123)
 
 head(pam_matrix)
