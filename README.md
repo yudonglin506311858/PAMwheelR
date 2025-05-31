@@ -1,5 +1,7 @@
 # PAMwheelR
 
+PAMwheelR 是一个用于可视化 PAM (Protospacer Adjacent Motif) 序列的 R 包。它可以将不同长度和频率的 PAM 序列以轮状图(wheel diagram)的形式展示，支持任意层数的嵌套可视化。
+
 ## 安装
 
 ```r
