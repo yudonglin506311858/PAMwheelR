@@ -56,3 +56,8 @@ plot_pam_wheel(pam_matrix, inner_radius = 0.3, n_layers = 5)
 
 ![image](https://github.com/user-attachments/assets/aef7cea5-4c62-4cb5-9d9a-43df3e1d8674)
 
+## 参考文章
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4826307/
+
+https://www.science.org/doi/10.1126/sciadv.abb3350
