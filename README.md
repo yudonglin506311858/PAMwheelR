@@ -31,15 +31,21 @@ generate_pam_matrix <- function(codon_length = 3, seed = NULL) {
 
 # 示例使用
 pam_matrix <- generate_pam_matrix(codon_length = 2, seed = 123)
+
 head(pam_matrix)
+
 plot_pam_wheel(pam_matrix, inner_radius = 0.3, n_layers = 2)
 
 pam_matrix <- generate_pam_matrix(codon_length = 3, seed = 123)
+
 head(pam_matrix)
+
 plot_pam_wheel(pam_matrix, inner_radius = 0.3, n_layers = 3)
 
 pam_matrix <- generate_pam_matrix(codon_length = 4, seed = 123)
+
 head(pam_matrix)
+
 plot_pam_wheel(pam_matrix, inner_radius = 0.3, n_layers = 4)
 
 pam_matrix <- generate_pam_matrix(codon_length = 5, seed = 123)
