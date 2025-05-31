@@ -1,0 +1,20 @@
+Package: PAMwheelR
+Title: Visualization of PAM Sequences as Wheel Diagrams
+Version: 0.1.0
+Authors@R: 
+    person("Yu", "Donglin", email = "yudonglin@stu.pku.edu.cn", role = c("aut", "cre"))
+Description: Creates wheel diagram visualizations of PAM sequences with multiple layers,
+    showing the relative frequencies of different bases at each position.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2,
+    dplyr,
+    purrr,
+    rlang,
+    grDevices
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
