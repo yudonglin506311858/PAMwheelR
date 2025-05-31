@@ -10,8 +10,10 @@ if (!require("remotes")) install.packages("devtools")
 devtools::install_github("https://github.com/yudonglin506311858/PAMwheelR.git")
 
 ```
-source("R/plot_pam_wheel.R")
 
+
+```r
+library(PAMwheelR)
 library(dplyr)
 library(grDevices)
 library(ggplot2)
@@ -59,6 +61,8 @@ head(pam_matrix)
 plot_pam_wheel(pam_matrix, inner_radius = 0.3, n_layers = 4)
 
 pam_matrix <- generate_pam_matrix(codon_length = 5, seed = 123)
+
+```
 
 
 ![image](https://github.com/user-attachments/assets/aef7cea5-4c62-4cb5-9d9a-43df3e1d8674)
