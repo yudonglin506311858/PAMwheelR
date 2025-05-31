@@ -11,6 +11,9 @@ devtools::install_github("https://github.com/yudonglin506311858/PAMwheelR.git")
 
 ```
 
+## 示例数据
+![image](https://github.com/user-attachments/assets/91a91edc-84e3-46b5-8a7b-bddb673fa10a)
+
 ## 示例使用
 
 ```r
