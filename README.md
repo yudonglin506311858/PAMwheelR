@@ -1,5 +1,15 @@
 # PAMwheelR
 
+## 安装
+
+```r
+# 安装依赖
+if (!require("remotes")) install.packages("devtools")
+
+# 从GitHub安装
+devtools::install_github("https://github.com/yudonglin506311858/PAMwheelR.git")
+
+```
 source("R/plot_pam_wheel.R")
 
 library(dplyr)
